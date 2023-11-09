@@ -1,3 +1,10 @@
+:root {
+  --primary-dark: #081b29;
+  --primary-ligth:#ededed;
+  --transition-clr-blue:#00abf0;
+  --dark-blue: #21325e;
+}
+
 .App {
   text-align: center;
 }

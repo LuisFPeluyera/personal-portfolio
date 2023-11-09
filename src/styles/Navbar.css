@@ -1,13 +1,9 @@
-:root {
-    --primary-dark: #081b29;
-    --primary-ligth:#ededed;
-    --transition-clr-blue:#00abf0;
-}
+
 
 .navbar {
     width: 100%;
     height: 100px;
-    background: var(--primary-dark);
+    background: var(--dark-blue);
 }
 
 .links {
