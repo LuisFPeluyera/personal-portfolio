@@ -4,7 +4,7 @@
 .footer {
     width: 100%;
     height: 200px;
-    background: var(--dark-blue);
+    background: var(--transition-clr-blue);
     display: flex;
     justify-content: center;
     align-items: center;

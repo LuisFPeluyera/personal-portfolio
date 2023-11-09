@@ -1,6 +1,9 @@
 :root {
+  --primary-gradient:linear-gradient(155deg,#00feba, #5b548a);
+  --blue-gradient:linear-gradient(155deg,#5b548a,#00abf0 );
   --primary-dark: #081b29;
-  --primary-ligth:#ededed;
+  --primary-ligth:#ffffff;
+  /*#ededed*/
   --transition-clr-blue:#00abf0;
   --dark-blue: #21325e;
 }
