@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Home.css'
 import {GitHub} from "@mui/icons-material";
 import {LinkedIn} from "@mui/icons-material";
 import {Email} from "@mui/icons-material";
