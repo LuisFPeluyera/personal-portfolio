@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 
 
+
 function App() {
   return (
     <div className="App">

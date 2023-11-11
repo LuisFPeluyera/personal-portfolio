@@ -3,13 +3,13 @@ import '../styles/Navbar.css'
 import { Link, useLocation } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 
+
 export default function Navbar() {
    const [ expandNavbar, setExpandNavbar ] = useState(false);
    const location = useLocation();
 
    useEffect(()=>{
        setExpandNavbar(false)
-       console.log("useEffect worked");
    },[location])
 
 
