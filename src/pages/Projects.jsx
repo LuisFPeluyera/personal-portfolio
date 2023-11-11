@@ -2,7 +2,9 @@ import React from "react";
 import '../styles/Projects.css'
 import ProjectDisplay from "./ProjectDisplay";
 import ProjectItem from "../components/ProjectItem";
-import ImageNotFound from "../assets/image_not_found.png";
+import CoffeeShop from "../assets/blueBeanCoffeeShop.png";
+import HeyWeather from "../assets/heyWeather.png";
+import NotFound from "../assets/image_not_found.png";
 
 
 export default function Projects() {
@@ -10,8 +12,10 @@ export default function Projects() {
         <h1>My Projects</h1>
         <div className="projectList">
 
-            <ProjectItem name="Social Media Website" image="https://via.placeholder.com/300x400" image={ImageNotFound} />
-            <ProjectItem name="Another Social Media Website" image="https://via.placeholder.com/300x400" image={ImageNotFound} />
+            <ProjectItem name="Hey Weather" image={HeyWeather} />
+            <ProjectItem name="Blue Bean Coffee Shop"  image={CoffeeShop} />
+            <ProjectItem name="Movie Time"  image={NotFound} />
+            <ProjectItem name="Another React Project"  image={NotFound} />
 
         </div>
     </div>
