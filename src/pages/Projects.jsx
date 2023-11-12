@@ -5,6 +5,7 @@ import ProjectItem from "../components/ProjectItem";
 import CoffeeShop from "../assets/blueBeanCoffeeShop.png";
 import HeyWeather from "../assets/heyWeather.png";
 import NotFound from "../assets/image_not_found.png";
+import {ProjectList} from "../helpers/ProjectList";
 
 
 export default function Projects() {
@@ -12,10 +13,11 @@ export default function Projects() {
         <h1>My Projects</h1>
         <div className="projectList">
 
-            <ProjectItem name="Hey Weather" image={HeyWeather} />
-            <ProjectItem name="Blue Bean Coffee Shop"  image={CoffeeShop} />
-            <ProjectItem name="Movie Time"  image={NotFound} />
-            <ProjectItem name="Another React Project"  image={NotFound} />
+            {ProjectList.map((project)=>{
+               return <ProjectItem name={project.name} image={project.image} />
+            })}
+
+
 
         </div>
     </div>
