@@ -2,29 +2,42 @@ import HeyWeather from "../assets/heyWeather.png";
 import CoffeeShop from "../assets/blueBeanCoffeeShop.png";
 import NotFound from "../assets/image_not_found.png";
 
+
 export const ProjectList = [
     {
         name: 'Hey Weather',
-        image: HeyWeather
+        image: HeyWeather,
+        skills: 'some skills to update'
+
     },
     {
         name: 'Blue Bean Coffee Shop',
-        image: CoffeeShop
+        image: CoffeeShop,
+        skills: 'some skills to update'
+
     },
     {
         name: '<NerdFlix/>',
-        image: NotFound
+        image: NotFound,
+        skills: 'some skills to update'
+
     },
     {
         name: 'Another React Project',
-        image: NotFound
+        image: NotFound,
+        skills: 'some skills to update'
+
     },
     {
         name: 'Adlister project',
-        image: NotFound
+        image: NotFound,
+        skills: 'some skills to update'
+
     },
     {
         name: 'Another React Project',
-        image: NotFound
+        image: NotFound,
+        skills: 'some skills to update'
+
     }
 ]
