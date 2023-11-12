@@ -23,7 +23,7 @@ export const ProjectList = [
 
     },
     {
-        name: 'Another React Project',
+        name: 'Basic Calculator',
         image: NotFound,
         skills: 'some skills to update'
 
@@ -35,7 +35,7 @@ export const ProjectList = [
 
     },
     {
-        name: 'Another React Project',
+        name: 'React Wack a Mole',
         image: NotFound,
         skills: 'some skills to update'
 
