@@ -3,8 +3,12 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-
+aside img {
+    width: 700px;
+}
 .about {
     width: 100%;
     height: calc(100vh - 100px);
