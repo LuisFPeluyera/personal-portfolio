@@ -8,25 +8,25 @@ export const ProjectList = [
     {
         name: 'Hey Weather',
         image: HeyWeather,
-        skills: 'some skills to update'
+        skills: 'HTML, CSS Javascript, Mapbox API, OpenWeather API'
 
     },
     {
         name: 'Blue Bean Coffee Shop',
         image: CoffeeShop,
-        skills: 'some skills to update'
+        skills: 'HTML, CSS Javascript'
 
     },
     {
         name: '<NerdFlix/>',
         image: NotFound,
-        skills: 'some skills to update'
+        skills: 'HTML, CSS Javascript, Bootstrap, TMDB API, OMDB API'
 
     },
     {
         name: 'Basic Calculator',
         image: Calculator,
-        skills: 'some skills to update'
+        skills: 'HTML, CSS Javascript, JQuery'
 
     },
     {
@@ -38,7 +38,7 @@ export const ProjectList = [
     {
         name: 'React Wack a Mole',
         image: NotFound,
-        skills: 'some skills to update'
+        skills: 'HTML, CSS Javascript, REACT'
 
     }
 ]
