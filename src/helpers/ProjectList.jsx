@@ -2,6 +2,7 @@ import HeyWeather from "../assets/heyWeather.png";
 import CoffeeShop from "../assets/blueBeanCoffeeShop.png";
 import NotFound from "../assets/image_not_found.png";
 import Calculator from "../assets/calculator.png";
+import WhackAMole from "../assets/whack-a-mole.png";
 
 
 export const ProjectList = [
@@ -37,7 +38,7 @@ export const ProjectList = [
     },
     {
         name: 'React Wack a Mole',
-        image: NotFound,
+        image: WhackAMole,
         skills: 'HTML, CSS Javascript, REACT'
 
     }
