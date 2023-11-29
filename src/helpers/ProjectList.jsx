@@ -1,6 +1,7 @@
 import HeyWeather from "../assets/heyWeather.png";
 import CoffeeShop from "../assets/blueBeanCoffeeShop.png";
 import NotFound from "../assets/image_not_found.png";
+import Calculator from "../assets/calculator.png";
 
 
 export const ProjectList = [
@@ -24,7 +25,7 @@ export const ProjectList = [
     },
     {
         name: 'Basic Calculator',
-        image: NotFound,
+        image: Calculator,
         skills: 'some skills to update'
 
     },
