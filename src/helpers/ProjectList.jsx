@@ -33,7 +33,7 @@ export const ProjectList = [
     {
         name: 'React Wack a Mole',
         image: WhackAMole,
-        skills: 'Classic arcade whack a mole game developed using the dynamic trio of HTML, CSS, and React, this interactive experience puts a digital twist on the timeless Whack-a-Mole concept. Engage in a lively challenge as you aim to \'whack\' the virtual moles that pop up randomly on the screen. With its intuitive user interface and captivating visuals, this Whack-a-Mole game brings a dose of nostalgic enjoyment to the digital realm, making it a delightful and entertaining experience for players of all ages.'
+        skills: 'Classic arcade whack a mole game developed using the dynamic trio of HTML, CSS, and React. The game challanges the user to engage in a lively challenge as you aim to \'whack\' the virtual moles that pop up randomly on the screen. With its intuitive user interface and captivating visuals.'
 
     }
 ]
