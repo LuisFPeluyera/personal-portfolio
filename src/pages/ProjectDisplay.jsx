@@ -16,8 +16,10 @@ export default function ProjectDisplay(){
                 <b>Skills:</b> {project.skills}
             </p>
             <div className="links">
+                {/*TODO START HERE*/}
                 <GitHub />
                 <Laptop />
+
             </div>
 
         </div>
