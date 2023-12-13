@@ -3,7 +3,7 @@ import '../styles/Home.css'
 import {GitHub} from "@mui/icons-material";
 import {LinkedIn} from "@mui/icons-material";
 import {Email} from "@mui/icons-material";
-import ImgNotFound from '../assets/image_not_found.png'
+import Me from '../assets/me.jpg'
 
 export default function Home() {
     return (
@@ -18,7 +18,7 @@ export default function Home() {
             </div>
           </div>
           <aside>
-              <img src={ImgNotFound} alt=""/>
+              <img src={Me} alt=""/>
           </aside>
         </div>
 
