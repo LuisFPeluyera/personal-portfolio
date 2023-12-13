@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function About() {
+export default function Skills() {
     return(
         <div>
-            <h1>About</h1>
+            <h1>Skills</h1>
 
             <div className="skills">
                 <ol className="list">
