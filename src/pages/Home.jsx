@@ -11,7 +11,7 @@ export default function Home() {
           <div className="about" >
             <h2>Hi, I'm Luis</h2>
             <div className="prompt">
-                <p>An Army veteran with a passion for bridging languages and building immersive web experiences. Fluent in Spanish, English, Javascript and Java, I bring a 4D perspective to the world of full-stack web development</p>
+                <p>An Army veteran with a Top Secret/SCI clearance and a passion for bridging languages and building immersive web experiences. Fluent in Spanish, English, Javascript and Java, I bring a 4D perspective to the world of full-stack web development.</p>
                 <LinkedIn />
                 <GitHub />
                 <Email />
