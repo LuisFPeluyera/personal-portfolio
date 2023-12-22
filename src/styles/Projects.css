@@ -6,9 +6,13 @@
     align-items: center;
     flex-direction: column;
 }
+
+h1:hover {
+    color: var(--transition-clr-blue);
+}
 .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+
     font-size: 60px;
     font-weight: bolder;
 }
@@ -24,15 +28,17 @@
 /* MENU ITEM STYLING */
 
 .projectItem {
+    background-color: #fff;
     border-radius: 15px;
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px #fff;
     text-align: center;
+    color: #000;
 }
 .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 15px #fff;
     transition: 0.3s ease-in;
     cursor: pointer;
 }
