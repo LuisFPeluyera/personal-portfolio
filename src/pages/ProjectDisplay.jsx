@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/ProjectDisplay.css"
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import {ProjectList} from "../helpers/ProjectList";
 import {GitHub} from "@mui/icons-material";
 import {Laptop} from "@mui/icons-material";
@@ -17,8 +17,9 @@ export default function ProjectDisplay(){
             </p>
             <div className="links">
                 {/*TODO START HERE*/}
-                <GitHub />
-                <Laptop />
+                <Link to={project.website} >
+                    <Laptop />
+                </Link>
 
             </div>
 
